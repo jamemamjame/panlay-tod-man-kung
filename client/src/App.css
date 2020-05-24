@@ -1,38 +1,183 @@
-.App {
-  text-align: center;
+ิbody {
+  background: yellow;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-nav {
+  background: #ff9216;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1.1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-brand {
+  font-size: 1.4rem;
+}
+
+.nav-link {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar a:hover {
+  font-size: 1.3rem;
+  text-shadow: 2px 2px 5px #000000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#nav-logo {
+  height: 3.5rem;
+  margin-right: 1rem;
+}
+
+#nav-button {
+  margin-right: 2rem;
+  color: #ff6b16;
+  font-style: strong;
+  font-size: 1.1rem;
+  border-style: none;
+  background-color: white;
+}
+
+#nav-button:hover {
+  background-color: #ff6b16;
+  color: white;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+/* Carousel */
+.carousel-item {
+  height: 600px;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 600px;
+}
+
+/* About Us */
+#about-us {
+  margin-top: 2rem;
+}
+
+/* Menu */
+#menu {
+  background: #ff9216;
+  margin-top: 2rem;
+}
+.card {
+  margin-top: 2rem;
+}
+
+/* Footer */
+#footer {
+  background-color: #ff9216;
+  color: white;
+}
+
+#follow-us {
+  margin-top: 2rem;
+}
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+/* footer social icons */
+
+.social-network i {
+  size: auto;
+}
+
+.social-network a.icoFacebook {
+  background-color: #dfe6f3;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 1rem;
+}
+
+.social-network a.icoLine {
+  background-color: #d8fcdf;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 1rem 1rem 0 0;
+}
+
+.social-network a.icoFacebook:hover {
+  background-color: #3b5998;
+}
+
+.social-network a.icoLine:hover {
+  background-color: #0ca22a;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLine:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44bcdd;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #f9f9f9;
 }
