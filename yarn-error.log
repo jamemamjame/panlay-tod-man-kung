@@ -1,0 +1,54 @@
+Arguments: 
+  /Users/aphankosol/.nvm/versions/node/v12.16.1/bin/node /usr/local/bin/yarn add express express-validator bscryptjs config jsonwebtoken mongoose request axios
+
+PATH: 
+  /usr/local/opt/openssl@1.1/bin:/Users/aphankosol/anaconda3/bin:/Users/aphankosol/.nvm/versions/node/v12.16.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/usr/local/go/bin:/usr/local/munki:/Users/aphankosol/anaconda3/condabin:/usr/local/opt/openssl@1.1/bin:/Users/aphankosol/anaconda3/bin:/Users/aphankosol/.nvm/versions/node/v12.16.1/bin:/Users/aphankosol/Developer/flutter/bin:/Users/aphankosol/Developer/flutter/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bscryptjs: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66091:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:129590:22)
+      at Request.emit (events.js:311:20)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:130562:10)
+      at Request.emit (events.js:311:20)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:130484:12)
+      at Object.onceWrapper (events.js:417:28)
+      at IncomingMessage.emit (events.js:323:22)
+      at endReadableNT (_stream_readable.js:1204:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "panlay-tod-man-kung",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jamemamjame/panlay-tod-man-kung.git"
+    },
+    "author": "aphisit, poonyavee",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jamemamjame/panlay-tod-man-kung/issues"
+    },
+    "homepage": "https://github.com/jamemamjame/panlay-tod-man-kung#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
