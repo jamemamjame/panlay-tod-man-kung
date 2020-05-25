@@ -2,6 +2,7 @@ import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import _ from 'lodash'
 import Contact from './Contact'
+import FollowUs from './FollowUs'
 import { Container, Row, Col, Card } from 'react-bootstrap'
 
 // images importing
@@ -115,7 +116,7 @@ const Landing = () => {
       {/* Contact us */}
       <Contact />
 
-
+      <FollowUs />
     </>
   )
 }

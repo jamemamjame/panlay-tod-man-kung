@@ -80,11 +80,10 @@
 #footer {
   background-color: #ff9216;
   color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-#follow-us {
-  margin-top: 2rem;
-}
 /* footer social icons */
 
 ul.social-network {
